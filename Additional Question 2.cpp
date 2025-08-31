@@ -13,9 +13,9 @@ int main() {
 
     for (int i = 1; i < n-1 && !ok; i++) {
         for (int j = i+1; j < n && !ok; j++) {
-            char *x = s;       // first part
-            char *y = s + i;   // second part
-            char *z = s + j;   // third part
+            char *x = s;
+            char *y = s + i;
+            char *z = s + j;
 
             int xl = i;
             int yl = j - i;
